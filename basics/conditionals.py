@@ -12,7 +12,7 @@ else:
 
 # elif
 
-# se usa elif si quiere anidar un if, no se anida comunmente contro otro if como en otros lenguajes, eso puede generar conflictos
+# se usa elif si quieres anidar un if, no se anida comunmente contro otro if como en otros lenguajes, eso puede generar conflictos
 # chorradas de python xd
 
 x = 1
@@ -29,7 +29,7 @@ else:
     print("x no es ninguno de los valores anteriores")
 
 
-# bucle for, funciona un poco diferente a los fors convencioanles
+# bucle for, funciona un poco diferente a los fors convencionales
 
 lista = [[56, 34, 1],
          [12, 4, 5],

@@ -47,7 +47,7 @@ numero1 = 100
 
 # ejemplos tipos de dato int
 
-a = 0b100 # el 0b indica que el numero es decimal
+a = 0b100 # el 0b indica que el numero es binario
 b = 0x17 # el 0x indica que el numero es hexadecimal
 c = 0o720 # el 0o indica que el numero es octal
 
@@ -64,7 +64,7 @@ print(type(c))
 x = True
 y = False
 
-# un valor booleano tambien puede ser le resultado deevaluar un expresion
+# un valor booleano tambien puede ser le resultado de evaluar un expresion
 
 print(1 > 0)
 print(1 <= 0)
@@ -111,7 +111,7 @@ a = 1 + 3j
 b = 4 + 1j
 print(a+b)
 
-# en la aritmetica complex se suma la parte reale por seperado e igual la parte imaginaria
+# en la aritmetica complex se suma la parte real por seperado e igual la parte imaginaria
 
 # repasar aritmetica y algebra
 # echarle un ojo a la libreria cmath
