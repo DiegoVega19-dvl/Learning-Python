@@ -12,7 +12,7 @@ for i in "hola mundo":
     print(i)
 
 
-"""todo lo que va despues del 'in' debe ser un iterable
+"""todo lo que va despues del 'in' debe ser un iterable,
 siempre debe ser un iterable, si no el programa te marcara un error"""
 
 # Lista
@@ -39,6 +39,48 @@ for valor in {1, 2, 3}:
 for i in range(5):
     print(i)
 
+
+# WHILE LOOP
+
+
+# esto generara un loop infinito, mientras 10 siga siendo menor que 20
+while 10 < 20:
+    print("esto es un loop")
+    break  # la palabra reservada 'break' sirve para romper esos loops infinitos
+
+
+n1 = 10
+while n1 <= 100:
+    print("hola mundo esto es un loop")
+    n1 += 10
+if n1 >= 100:
+    print("loop finalizado")
+else:
+    print("ocurrio un error")
+
+
+paises = ["mexico", "argentina", "brazil"]
+for index, pais in enumerate(paises):
+    print(index, "-->>", pais)
+
+
+number = 5
+while number != 0:
+    print(number)
+    number -= 1
+
+
+teams = {
+    "Colorado": "Rockies",
+    "Chicago": "White Sox",
+    "Boston": "Red Sox",
+    "Minnesota": "Twins",
+    "Milwaukee": "Brewers",
+    "Seattle": "Mariners",
+}
+
+for key, team in teams.items():
+    print(key, "--->", team)
 
 
 # como saber si un objeto o variable es iterable
