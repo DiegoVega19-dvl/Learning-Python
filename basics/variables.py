@@ -36,20 +36,19 @@ conjunto = {1, 2, 3, 4, 5}
 print(diccionario)
 
 
-
 """tipos de datos"""
 
 
 # entero o int
 
-numero = -100 # los int en python permiten almacenar numero enteros no decimal positivos o negativos
+numero = -100  # los int en python permiten almacenar numero enteros no decimal positivos o negativos
 numero1 = 100
 
 # ejemplos tipos de dato int
 
-a = 0b100 # el 0b indica que el numero es binario
-b = 0x17 # el 0x indica que el numero es hexadecimal
-c = 0o720 # el 0o indica que el numero es octal
+a = 0b100  # el 0b indica que el numero es binario
+b = 0x17  # el 0x indica que el numero es hexadecimal
+c = 0o720  # el 0o indica que el numero es octal
 
 print(a)
 print(type(a))
@@ -71,24 +70,23 @@ print(1 <= 0)
 print(9 == 9)
 
 
-if 1<=0:
+if 1 <= 0:
     print('es true')
 else:
     print('es false')
 
 
-
 # float
 
-decimal = 12.20 # en python los numeros decimales son de tipo float que en realidad son de tipo double
+decimal = 12.20  # en python los numeros decimales son de tipo float que en realidad son de tipo double
 print(type(decimal))
 
-f = 1.93e-3 # tambien puede declarar variables con notacion cientifica 'e'
+f = 1.93e-3  # tambien puede declarar variables con notacion cientifica 'e'
 
 
 # en python no tiene presicion infinita
 presision = 0.99999999999999999999999999
-print(presision) # resultado 1
+print(presision)  # resultado 1
 
 
 # numeros complejos en python
@@ -97,12 +95,12 @@ print(presision) # resultado 1
 complejo = 3 + 5j
 print(type(complejo))
 
-print(complejo.real) # es posible acceder a la parte real usando le metodo real
-print(complejo.imag) # y a la parte imaginaria usando el metodo imag
+print(complejo.real)  # es posible acceder a la parte real usando le metodo real
+print(complejo.imag)  # y a la parte imaginaria usando el metodo imag
 
 # tambien se puede declarar una variables de tipo complejo usando la funcion complex
 
-com = complex(3,5)
+com = complex(3, 5)
 print(com)
 
 # suma de complejos
@@ -137,16 +135,4 @@ cadena = 'esto es una cadena texto'
 # =========================================================================================================================
 
 
-
 # estructuras
-
-
-
-
-
-
-
-
-
-
-

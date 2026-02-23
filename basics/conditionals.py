@@ -38,7 +38,6 @@ lista = [[56, 34, 1],
 for i in lista:
     for j in i:
         print(j)
-        
 
 
 # slicing

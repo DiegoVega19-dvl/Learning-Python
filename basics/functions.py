@@ -1,5 +1,5 @@
 
-def nombre (juan):
+def nombre(juan):
     print("Hola", nombre)
-    
+
     return nombre
