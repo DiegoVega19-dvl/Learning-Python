@@ -69,7 +69,7 @@ print(numero3)
 
 # pow()
 
-'''eleva un numero a la ptencia de otro o realiza exponenciacion modular'''
+'''eleva un numero a la potencia de otro o realiza exponenciacion modular'''
 
 result_1 = pow(2, 3)  # regresa la potencia
 print(result_1)
